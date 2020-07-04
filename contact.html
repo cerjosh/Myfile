@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Contacts</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <p>my fictional address</p>
+    <p>09768232746</p>
+    <p>contact@gmail.com</p>
+
+    <hr>
+
+    <!-- mailto gives the the data to the email you want to send.
+         enctype give what kind of encryption the data must be -->
+
+    <form action="mailto:joshu0824@gmail.com" method="POST">
+        <label>Name:</label>
+        <input type="text" name="" placeholder="Enter your name"><br>
+
+        <label for="">Email</label>
+        <input type="email"><br>
+
+        <label for="">Your Message</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <label for="">Do you want to sign-up to the list?</label>
+        <input type="checkbox" value=""><br>
+        <label for="">Password</label>
+        <input type="password" >
+        <input type="submit" name="save">
+        
+    </form>
+</body>
+</html>
